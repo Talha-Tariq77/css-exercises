@@ -1,0 +1,19 @@
+.class1 {
+    background-color: rgb(211, 76, 76);
+    font-family: Verdana, "DejaVu Sans", 'sans-sarif';
+}
+
+#uniqueid1 {
+    color: rgb(50, 140, 244);
+    font-size: 36px;
+}
+
+.class2 {
+    font-size: 24px;
+}
+
+#uniqueid2 {
+    background-color: rgb(90, 220, 29);
+    font-size: 24px;
+    font-weight: bold;
+}
