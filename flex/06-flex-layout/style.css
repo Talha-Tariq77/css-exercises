@@ -32,12 +32,14 @@ input {
 .header {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .footer {
   display: flex;
   flex-direction: row;
   background-color: #f0efef;
+  justify-content: space-between;
 }
 
 .left-links, .right-links {
@@ -46,13 +48,7 @@ input {
   padding: 0px;
   margin: 10px 10px;
 }
-.left-links {
-  margin-right: auto;
-}
 
-.right-links {
-  margin-left: auto;
-}
 
 ul li {
   list-style: none;
