@@ -33,6 +33,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+  margin: 10px;
 }
 
 .close-button {
@@ -48,6 +50,8 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  flex-shrink: 0;
+  margin: 10px;
 }
 
 button {
@@ -60,10 +64,29 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin: 10px 0px;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  margin: 10px 0px;
+}
+
+.header {
+  font-weight: bold;
+  font-size: large;
+  margin: 10px 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.mid-section {
+  display: flex;
+  flex-direction: column;
 }
